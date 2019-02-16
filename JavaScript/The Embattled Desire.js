@@ -19,3 +19,4 @@ function foci () {
 window.addEventListener('load', message, false);
 eff.addEventListener('mousemove', foci, false);
 eff.addEventListener('touchstart', foci, false);
+eff.addEventListener('mouseover', foci, {once: true});
